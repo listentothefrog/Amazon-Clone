@@ -26,6 +26,13 @@ function Home() {
             image="https://m.media-amazon.com/images/I/712W+tWTcAL._AC_SX960_SY720_.jpg"
             rating={5}
           />
+          <Product
+            id="93404404"
+            title="Takeya Originals Vacuum-Insulated Stainless-Steel Water Bottle, 40oz, White"
+            price={15.16}
+            image="https://images-na.ssl-images-amazon.com/images/I/51aKh79f3lL._AC_SL1000_.jpg"
+            rating={5}
+          />
         </div>
         <div className="home__row">
           <Product
@@ -41,6 +48,13 @@ function Home() {
             price={25.99}
             image="https://images-na.ssl-images-amazon.com/images/I/715v1cVKeJL._AC_UL1500_.jpg"
             rating={4}
+          />
+          <Product
+            id="40766551"
+            title="Sony a7 III (ILCE7M3K/B) Full-frame Mirrorless Interchangeable-Lens Camera with 28-70mm Lens with 3-Inch LCD, Black"
+            price={1500.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/71PSzOXyzKL._AC_SL1500_.jpg"
+            rating={5}
           />
         </div>
         <div className="home__row">
@@ -73,6 +87,29 @@ function Home() {
             price={115.94}
             image="https://m.media-amazon.com/images/I/51tT1es78KL._AC_UY436_FMwebp_QL65_.jpg"
             rating={5}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="569891671"
+            title="SAMSUNG 55-Inch Class Crystal UHD TU-8000 Series - 4K UHD HDR Smart TV with Alexa Built-in (UN55TU8000FXZA, 2020 Model)"
+            price={430.42}
+            image="https://m.media-amazon.com/images/I/71RiQZ0J2SL._AC_UY436_FMwebp_QL65_.jpg"
+            rating={5}
+          />
+          <Product
+            id="26094388"
+            title="Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys, Adjustable Stand, for Windows 10 and macOS 10.13 or late"
+            price={18.54}
+            image="https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_SL1500_.jpg"
+            rating={5}
+          />
+          <Product
+            id="89793298"
+            title="USB Microphone Kit 192KHZ/24BIT Plug & Play MAONO AU-A04 USB Computer Cardioid Mic Podcast Condenser Microphone with Professional Sound Chipset for PC Karaoke, YouTube, Gaming Recording"
+            price={50.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/61jOIJwE9YL._AC_SL1000_.jpg"
+            rating={4}
           />
         </div>
       </div>
