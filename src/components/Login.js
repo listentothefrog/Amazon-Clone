@@ -7,7 +7,9 @@ import { useStateValue } from "./StateProvider";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const signIn = 
+  const signIn = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="login">
       <Link to="/">
@@ -32,7 +34,11 @@ function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" onClick={signIn} className="login__signInButton">
+          <button
+            type="submit"
+            onClick={signIn}
+            className="login__signInButton"
+          >
             Sign In
           </button>
         </form>
